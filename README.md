@@ -1,16 +1,9 @@
-# kakao_login_service
+## Flutter을 이용한 Kakao_login_service 기능  
 
-A new Flutter project.
+# 1차 Commit: 카카오 소셜 로그인 기능 & 동의항목 관련 정보 ( 프로필 ) 가져오기 \n
+**사용 패키지: kakao_flutter_sdk**  
 
-## Getting Started
+<img src="https://github.com/alscks6521/login-kakao/assets/112923685/c0d8a444-a0f0-49c5-820d-50b6e48d0f12" width="20%">
+<img src="https://github.com/alscks6521/login-kakao/assets/112923685/a1a59171-1fe3-40cf-8c50-8c19381432e4" width="20%">
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
