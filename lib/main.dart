@@ -20,25 +20,16 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => UserModel(
         nickname: '',
-        profileimage: '',
+        email: '',
       ),
-      child: MaterialApp(
-        home: FutureBuilder<bool>(
-          future: _getLoginState(),
-          builder: (context, snapshot) {
-            return snapshot.connectionState == ConnectionState.waiting
-                ? const CircularProgressIndicator()
-                : (snapshot.data == true)
-                    ? const MainPage()
-                    : const LoginPage();
-          },
-        ),
+      child: const MaterialApp(
+        home: LoginPage(),
       ),
     );
   }
 }
 
-Future<bool> _getLoginState() async {
-  final prefs = await SharedPreferences.getInstance();
-  return prefs.getBool('isLogged') ?? false;
-}
+// Future<bool> _getLoginState() async {
+//   final prefs = await SharedPreferences.getInstance();
+//   return prefs.getBool('isLogged') ?? false;
+// }
