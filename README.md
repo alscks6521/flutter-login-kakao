@@ -1,10 +1,16 @@
-# Flutter을 이용한 Kakao_login_service 기능  
 
-# 1차 Commit: 카카오 소셜 로그인 기능 & 동의항목 관련 정보 ( 프로필 ) 가져오기
+## 2차 Commit: (기본 구성 구현, 24.04.19)  
+1. 자신의 USER_API값
+2. 선택한 친구 ID값
+3. Provider 상태관리
+기본구성 구현
+---
+## 1차 Commit: 카카오 소셜 로그인 기능 & 동의항목 관련 정보 ( 프로필 ) 가져오기  
+
 **사용 패키지: kakao_flutter_sdk**  
 
-<img src="https://github.com/alscks6521/login-kakao/assets/112923685/c0d8a444-a0f0-49c5-820d-50b6e48d0f12" width="20%">
-<img src="https://github.com/alscks6521/login-kakao/assets/112923685/a1a59171-1fe3-40cf-8c50-8c19381432e4" width="20%">
+<img src="https://github.com/alscks6521/login-kakao/assets/112923685/c0d8a444-a0f0-49c5-820d-50b6e48d0f12" width="15%">
+<img src="https://github.com/alscks6521/login-kakao/assets/112923685/a1a59171-1fe3-40cf-8c50-8c19381432e4" width="15%">
 
 
 ### 친구 목록 가져오는 법 
@@ -16,3 +22,4 @@
 2. 친구가 앱 연결 시 [카카오 서비스 내 친구 목록 제공] 동의항목에 동의한 상태일 것  
 3. 친구가 숨김 또는 차단 친구가 아닐 것  
 4. 친구의 프로필 공개 설정이 공개 상태일 것
+
